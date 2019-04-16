@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byType"
+>
+    <!--<bean id="userservlet" class="com.entity.spring03.UserServlet">-->
+        <!--<property name="userDao" ref="userDao"></property>-->
+    <!--</bean>-->
+    <!--<bean id="userDao" class="com.entity.spring03.UserDao"></bean>-->
+
+    <!--<bean id="userservlet1" class="com.entity.spring03.UserServlet">-->
+
+    <!--</bean>-->
+    <!--<bean id="userDao1" class="com.entity.spring03.UserDao"></bean>-->
+
+    <bean id="userservlet2" class="com.entity.spring03.service.UserService">
+
+    </bean>
+    <bean id="userDao2" class="com.entity.spring03.dao.UserDao"></bean>
+
+</beans>
